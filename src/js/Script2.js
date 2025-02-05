@@ -110,3 +110,8 @@ persona.numControl = "02025465";
 
 
 //CREAR UN OBJETO
+const objVehiculo = {
+    color: "rojo",
+    modelo: "Vento",
+    marca: "Ferrari"
+}
