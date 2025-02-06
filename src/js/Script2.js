@@ -113,5 +113,23 @@ persona.numControl = "02025465";
 const objVehiculo = {
     color: "rojo",
     modelo: "Vento",
-    marca: "Ferrari"
+    marca: "Ferrari",
+    km: 345,
+
+    mostrarDatos: function(){
+        console.log("Yo muestro los datos!!");
+    }
 }
+
+objVehiculo.mostrarDatos();
+
+//USANDO UN CONSTRUCTOR NEW OBJECT
+const electronico = new Object();
+electronico.marca = "Iphone";
+electronico.modelo = "7789";
+electronico.ram = 12;
+electronico.dd = 256;
+
+console.log(electronico)
+
+
